@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React from "react";
+import PropTypes from "prop-types";
 import friends from "./friends.json";
 import styles from "./FriendList.module.css";
 
@@ -17,5 +17,11 @@ const FriendListItem = ({ avatar, name, isOnline }) => (
     </p>
   </div>
 );
+
+friends.propTypes = {
+  name: PropTypes.string,
+  avatar: PropTypes.string,
+  isOnline: PropTypes.string,
+};
 
 export default FriendListItem;
