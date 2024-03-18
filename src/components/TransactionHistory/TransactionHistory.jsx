@@ -1,4 +1,3 @@
-import items from "../TransactionHistory/transactions.json";
 import styles from "./TransactionHistory.module.css";
 
 const TransactionHistory = ({ items }) => (

@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import PropTypes from "prop-types";
-import friends from "./friends.json";
-import styles from "./FriendList.module.css";
+import friends from "../FriendList/friends.json";
+import styles from "../FriendList/FriendList.module.css";
 
 const FriendListItem = ({ avatar, name, isOnline }) => (
   <div className={styles.friendListItem}>
